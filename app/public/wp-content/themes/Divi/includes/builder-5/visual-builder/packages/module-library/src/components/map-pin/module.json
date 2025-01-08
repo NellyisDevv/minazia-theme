@@ -1,0 +1,30 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "name": "divi/map-pin",
+  "d4Shortcode": "et_pb_map_pin",
+  "title": "Map Pin",
+  "titles": "Map Pins",
+  "moduleIcon": "divi/module-map-pin",
+  "category": "child-module",
+  "attributes": {
+    "pin": {
+      "type": "object",
+      "selector": "{{selector}}"
+    },
+    "title": {
+      "type": "object",
+      "selector": "{{selector}} h3",
+      "tagName": "h3",
+      "inlineEditor": "plainText",
+      "childrenSanitizer": "et_core_esc_previously"
+    },
+    "content": {
+      "type": "object",
+      "selector": "{{selector}} .infowindow",
+      "elementType": "content",
+      "attributes": {
+        "class": "infowindow"
+      }
+    }
+  }
+}

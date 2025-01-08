@@ -1,0 +1,27 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "logo": {
+    "decoration": {
+      "sizing": {
+        "desktop": {
+          "value": {
+            "maxWidth": "100%"
+          }
+        }
+      }
+    }
+  },
+  "cartQuantity": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "lineHeight": "1em"
+            }
+          }
+        }
+      }
+    }
+  }
+}
